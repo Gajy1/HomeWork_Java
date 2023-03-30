@@ -1,5 +1,5 @@
 //Реализовать простой калькулятор (+ - / *)
-package HomeWork_java.HomeWork_Java.home_work_1;
+package home_work_1;
 
 import java.util.Scanner;
 
