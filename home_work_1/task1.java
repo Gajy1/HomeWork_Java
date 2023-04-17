@@ -27,5 +27,6 @@ public class task1 {
         }
         System.out.println(summ);
         System.out.println(factorial);
+        sc.close();
     }
 }

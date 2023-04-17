@@ -27,6 +27,7 @@ public class task2 {
          default:  System.out.printf("Error! Enter correct operator");
             return;
       }
+      reader.close();
       System.out.print("\nThe result is given as follows:\n");
       System.out.printf(num1 + " " + op + " " + num2 + " = " + ans); 
 
