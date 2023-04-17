@@ -9,10 +9,7 @@ public class Product {
     protected String brand;
     protected double price;
 
-    int param1;
-    String param2;
-    boolean param3;
-    String param4;
+   
 
     public double getPrice(){
         return price;
@@ -40,13 +37,7 @@ public class Product {
             this.name = name;
     }
 
-    {
-        System.out.println("Initializer");
-        param1 = 100;
-        param2 = "...";
-        param3 = true;
-        param4 = "===";
-    }
+   
 
     public Product(){
         this("Продукт");
